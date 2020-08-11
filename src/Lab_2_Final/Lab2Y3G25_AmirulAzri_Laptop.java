@@ -7,13 +7,14 @@ import java.util.*;
 public class Lab2Y3G25_AmirulAzri_Laptop {
     private static String brand;
     private static String model;
-    private static int year, ans;
+    private static String year;
+    private static int  ans;
     private static double price;
     private static double disc_rate;
     private static Scanner ipt = new Scanner(System.in);
 
 
-    public Lab2Y3G25_AmirulAzri_Laptop(String brand, String model, int year, double price){
+    public Lab2Y3G25_AmirulAzri_Laptop(String brand, String model, String year, double price){
         this.brand = brand;
         this.model = model;
         this.year = year;
@@ -27,7 +28,7 @@ public class Lab2Y3G25_AmirulAzri_Laptop {
         System.out.println("Model title:");
         model = ipt.next();
         System.out.println("Year Manufactured:");
-        year = ipt.nextInt();
+        year = ipt.next();
         System.out.println("Price: RM");
         price = ipt.nextDouble();
     }

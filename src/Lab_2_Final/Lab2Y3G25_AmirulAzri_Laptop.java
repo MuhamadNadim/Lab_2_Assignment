@@ -1,14 +1,12 @@
 package Lab_2_Final;
 
-import jdk.internal.org.objectweb.asm.tree.InsnList;
-
 import java.util.*;
 
 public class Lab2Y3G25_AmirulAzri_Laptop {
     private static String brand;
     private static String model;
     private static String year;
-    private static int  ans;
+    private static int ans;
     private static double price;
     private static double disc_rate;
     private static Scanner ipt = new Scanner(System.in);
@@ -23,6 +21,7 @@ public class Lab2Y3G25_AmirulAzri_Laptop {
 
     public static void add(){
         System.out.println("STORE: Enter the details of the laptop to get stored.");
+
         System.out.println("Brand Name:");
         brand = ipt.next();
         System.out.println("Model title:");
